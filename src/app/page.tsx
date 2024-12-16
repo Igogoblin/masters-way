@@ -16,7 +16,7 @@ export default function Home() {
         <ol>
           <li>Проверка деплоя</li>
           <li>Деплой на vercel.</li>
-          <li> проверка vitest удачна</li>
+          <li>проверка vitest удачна</li>
         </ol>
 
         <div className={styles.ctas}></div>
