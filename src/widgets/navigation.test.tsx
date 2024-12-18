@@ -3,12 +3,6 @@ import { render, screen } from "@testing-library/react";
 import { Navigation } from "@/widgets/navigation";
 import { describe } from "node:test";
 import { expect, it } from "vitest";
-// jest.mock("@/widgets/navigation", () => ({
-//   PLANETS: [
-//     { name: { en: "Earth", ru: "Земля" }, path: "/earth" },
-//     { name: { en: "Mars", ru: "Марс" }, path: "/mars" },
-//   ],
-// }));
 
 describe("Navigation", () => {
   it("renders the list items", () => {
