@@ -17,6 +17,7 @@ export default function Home() {
           <li>Проверка деплоя</li>
           <li>Деплой на vercel.</li>
           <li>проверка vitest удачна</li>
+          <li>базовый роутинг готов</li>
         </ol>
 
         <div className={styles.ctas}></div>
