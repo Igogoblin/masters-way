@@ -1,7 +1,8 @@
 .navigation {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-/* .navigation li {
-
-} */
+.navigation li {
+  width: 100px;
+  height: 100px;
+}
