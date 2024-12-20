@@ -3,11 +3,17 @@
   color: #fff;
   text-align: center;
   padding: 5px 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   border-radius: 4px;
   transition: transform 0.2s ease;
+  z-index: -1;
+  /* transform: translateY(-33px); */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.label:hover {
-  transform: translateY(-3px);
-}
+/* .label:hover {
+  transform: translateY(33px);
+} */

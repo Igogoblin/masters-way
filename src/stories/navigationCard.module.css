@@ -1,37 +1,12 @@
 .card {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .label {
-    position: absolute;
-    bottom: -30px; /* Начальная позиция лейбла */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    white-space: nowrap;
-    opacity: 0; /* Скрыт в начале */
-    transition: all 0.3s ease;
-  }
-  
-  .card:hover .label {
-    bottom: 10px; /* Выезжает вверх */
-    opacity: 1; /* Появляется */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

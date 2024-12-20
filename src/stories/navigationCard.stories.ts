@@ -1,21 +1,16 @@
-import { Meta, Story } from "@storybook/react"; // Правильные типы для Storybook
-import NavigationCard, { NavigationCardProps } from "./NavigationCard"; // Убедитесь, что NavigationCardProps экспортируется
+// import NavigationCard from "./NavigationCard";
+// import type { NavigationCardProps } from "./NavigationCard";
 
-export default {
-  title: "Components/NavigationCard",
-  component: NavigationCard,
-  argTypes: {
-    onClick: { action: "clicked" },
-  },
-} as Meta;
-
-// const Template: Story<NavigationCardProps> = (args: any) => (
-//   <NavigationCard {...args}></NavigationCard>
-// );
-
-// export const Default = Template.bind({});
-// Default.args = {
-//   image: "/mercury.jpg",
-//   label: "Mercury",
-//   onClick: () => alert("Card clicked!"),
+// export default {
+//   title: "Components/NavigationCard",
+//   component: NavigationCard,
+//   argTypes: {
+//     image: { control: "text" },
+//     label: { control: "text" },
+//     path: { control: "text" },
+//   },
 // };
+
+// export const Default = (args: NavigationCardProps) => (
+//   <NavigationCard {...args} />
+// );

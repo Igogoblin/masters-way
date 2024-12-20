@@ -1,26 +1,28 @@
+import React from "react";
 import Image from "next/image";
-import styles from "./navigationCard.module.css";
-import Label from "./Label";
+import styles from "./NavigationCard.module.css";
+import Label from "@/stories/Label";
+import Link from "next/link";
 
 export interface NavigationCardProps {
   image: string;
   label: string;
-  onClick: () => void;
+  path: string;
+  language: "en" | "ru";
+  onClick?: () => void;
 }
 
 const NavigationCard: React.FC<NavigationCardProps> = ({
   image,
   label,
-  onClick,
+  path,
 }) => {
   return (
-    <div
-      //   style={{ backgroundImage: `url(${image})` }}
-      onClick={onClick}
-      //   className="navigation-card"
-    >
-      <Image src={image} alt={label} width={200} height={200} />
-      <Label text={label} />
+    <div className={styles.card}>
+      <Link href={path} className={styles.link}>
+        <Image src={image} alt={label} width={100} height={100} />
+        <Label text={label} />
+      </Link>
     </div>
   );
 };
