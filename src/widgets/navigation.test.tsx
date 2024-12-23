@@ -7,6 +7,7 @@ import { vi } from "vitest";
 import { JSX } from "react";
 
 vi.mock("next/image", () => ({
+  // eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text
   default: (props: JSX.IntrinsicElements["img"]) => <img {...props} />,
 }));
 
