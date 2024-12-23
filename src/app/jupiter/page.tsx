@@ -1,5 +1,5 @@
 function Jupiter() {
-  return <div>Jupiter</div>;
+  return <div className="page">Jupiter</div>;
 }
 
 export default Jupiter;

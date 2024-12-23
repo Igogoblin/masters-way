@@ -1,5 +1,5 @@
 function Neptune() {
-  return <div>Neptune</div>;
+  return <div className="page">Neptune</div>;
 }
 
 export default Neptune;

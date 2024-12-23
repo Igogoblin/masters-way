@@ -1,5 +1,5 @@
 function Mercury() {
-  return <div>Mercury</div>;
+  return <div className="page">Mercury</div>;
 }
 
 export default Mercury;

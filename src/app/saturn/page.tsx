@@ -1,5 +1,5 @@
 function Saturn() {
-  return <div>Saturn</div>;
+  return <div className="page">Saturn</div>;
 }
 
 export default Saturn;

@@ -1,5 +1,5 @@
 function Earth() {
-  return <div>Earth</div>;
+  return <div className="page">Earth</div>;
 }
 
 export default Earth;

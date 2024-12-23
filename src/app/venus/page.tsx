@@ -1,5 +1,5 @@
 function Venus() {
-  return <div>Venus</div>;
+  return <div className="page">Venus</div>;
 }
 
 export default Venus;

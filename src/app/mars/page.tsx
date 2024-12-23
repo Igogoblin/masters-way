@@ -1,5 +1,5 @@
 function Mars() {
-  return <div>Mars</div>;
+  return <div className="page">Mars</div>;
 }
 
 export default Mars;
