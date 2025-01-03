@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 // import { PLANETS } from "@/shared/config/planets";
-import { Navigation } from "@/widgets/navigation";
+import { Navigation } from "@/widgets/navigation/navigation";
 import { describe } from "node:test";
 import { expect, it } from "vitest";
 import { vi } from "vitest";

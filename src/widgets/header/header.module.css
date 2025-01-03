@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo img {
+  height: 50px;
+  cursor: pointer;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.languageToggle button {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
